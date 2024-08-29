@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+body{
+    background-color: rgba(156, 156, 156, 0.793);
+    text-align: justify;
+}
+section{
+    background-color: #ffffffd0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px 5px;
+}
+section h1{
+    font-family: "Bungee Tint", sans-serif;
+    background-image: linear-gradient(to right, #000000, transparent);
+    color: #fff;
+}
+section strong{
+    color: red;
+}
+footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 500ms;
+    border-radius: 4px;
+    padding: 5px 4px;
+}
+footer a:hover{
+    text-decoration: underline;
+    background-color: #80808093;
+}
+footer a:active{
+    color: black;
+}
